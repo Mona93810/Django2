@@ -27,5 +27,6 @@ jobs:
         pip install -r requirements.txt
         ls -l
     - name: Run tests
-      run: |
+      run: 
+        cd atom_ml_django
         python manage.py runserver
