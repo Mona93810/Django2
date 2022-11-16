@@ -26,5 +26,4 @@ jobs:
         ls -l
     - name: Run tests
       run: 
-        cd atom_ml_django
-        python manage.py runserver
+        python atom_ml_django/manage.py runserver
